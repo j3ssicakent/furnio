@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Montserrat, Poppins } from 'next/font/google'
-import './globals.css'
+import '@/assets/css/globals.css'
 
 
 export const metadata: Metadata = {
@@ -9,14 +9,14 @@ export const metadata: Metadata = {
 
 
 const primary = Montserrat({
-  weight: ["400", "600", "700"],
+  weight: ["400", "600", "700", "900"],
   subsets: ['latin'],
   variable: '--font-primary',
   display: 'swap',
 })
 
 const secondary = Poppins({
-  weight: '400',
+  weight: ["300", "400", "600", "700", "900"],
   subsets: ['latin'],
   variable: '--font-secondary',
   display: 'swap',

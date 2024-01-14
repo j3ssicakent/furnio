@@ -16,12 +16,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-primary);
   user-select: none;
-  letter-spacing: 0.035em;
 }
 
 p, a, button, span, div {
   font-family: var(--font-secondary);
   user-select: none;
   font-size: 14px;
-  letter-spacing: 0.035em;
 }

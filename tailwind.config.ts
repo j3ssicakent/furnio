@@ -27,6 +27,9 @@ const config: Config = {
       backgroundColor: {
         base: "#F5F5F5"
       },
+      backgroundImage: {
+        'banner': "url('/images/banner.jpeg')",
+      }
     },
   },
   plugins: [],
