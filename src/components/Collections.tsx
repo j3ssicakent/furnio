@@ -20,10 +20,10 @@ const Collections = ({collections, title, description}: Props) => {
     return (
         <div className="my-12">
             <div className="mb-12 text-center">
-                <Typography variant="h2" className="text-xl font-bold">{title}</Typography>
+                <Typography variant="h2" className="text-2xl font-bold">{title}</Typography>
                 <Typography variant="paragraph" className="font-light">{description}</Typography>
             </div>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
 
                 {collections.map((collection) => {
                     return (

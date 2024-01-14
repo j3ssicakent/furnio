@@ -10,7 +10,7 @@ import { HeartIcon, MagnifyingGlassIcon, ShoppingCartIcon, UserIcon } from "@her
 const Header = () => {
 
     return (
-        <div className='flex justify-between py-6 md:px-8 items-center'>
+        <div className='flex justify-between py-6 items-center'>
             <div className="flex gap-2">
                 <Image
                     className="h-8 w-8"
