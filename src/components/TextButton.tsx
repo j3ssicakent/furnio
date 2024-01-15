@@ -9,7 +9,7 @@ interface Props {
   }
 
 const TextButton = ({children, variant, ...props}: Props) => {
-    let classes = "uppercase bg-brown-500 text-white w-1/3 py-3"
+    let classes = "uppercase bg-brown-500 text-white max-w-[200px] py-3"
     return (
         <Button 
             className={classes}

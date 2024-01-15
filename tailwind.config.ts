@@ -21,7 +21,8 @@ const config: Config = {
           300: "#898989",
           400: "#B0B0B0",
           500: "#D8D8D8",
-          600: "#E7E7E7"
+          600: "#E7E7E7",
+          700: "#9F9F9F"
         } 
       },
       backgroundColor: {

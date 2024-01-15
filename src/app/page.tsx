@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Collections from "@/components/Collections";
+import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
 import dining from "@/assets/images/dining.jpeg"
 import living from "@/assets/images/living.jpeg"
@@ -9,6 +10,8 @@ import leviosa from "@/assets/images/products/leviosa.jpeg"
 import lolito from "@/assets/images/products/lolito.jpeg"
 import respira from "@/assets/images/products/respira.jpeg"
 import Products from "@/components/Products";
+import Inspiration from "@/components/Inspiration";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -83,7 +86,7 @@ export default function Home() {
 
 
   return (
-    <div className="container max-w-[1440px] mx-auto bg-cream px-8">
+    <div className="container max-w-[1440px] mx-auto bg-cream">
       <Header />
       <Banner />
       <Collections 
@@ -95,6 +98,9 @@ export default function Home() {
         title="Our Products"
         products={products}
       />
+      <Inspiration />
+      <Gallery />
+      <Footer />
     </div>
   )
 }

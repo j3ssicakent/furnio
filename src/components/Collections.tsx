@@ -18,16 +18,16 @@ interface Props {
 const Collections = ({collections, title, description}: Props) => {
 
     return (
-        <div className="my-12">
+        <div className="my-12 px-8">
             <div className="mb-12 text-center">
                 <Typography variant="h2" className="text-2xl font-bold">{title}</Typography>
                 <Typography variant="paragraph" className="font-light">{description}</Typography>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
 
-                {collections.map((collection) => {
+                {collections.map((collection, index) => {
                     return (
-                        <a href="#">
+                        <a href="#" key={index}>
                             <div className="flex flex-col gap-4">
                                 <div className="overflow-hidden rounded-xl">
                                     <Image 

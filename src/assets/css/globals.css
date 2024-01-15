@@ -23,3 +23,34 @@ p, a, button, span, div {
   user-select: none;
   font-size: 14px;
 }
+
+.swiper-button-prev, .swiper-button-next {
+  background-color: white;
+  border-radius: 50%;
+  width: 35px!important;
+  height: 35px!important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  color: #B88E2F;
+  font-size: 1rem!important;
+}
+
+.swiper-slide-active {
+  height: auto!important;
+}
+
+.swiper-pagination {
+  left: 1.5rem!important;  
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #B88E2F!important;
+  outline: 1px solid #B88E2F!important;
+  outline-offset: 3px;
+}
+
+.MuiMasonry-root {
+  margin: auto;
+}

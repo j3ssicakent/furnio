@@ -10,16 +10,20 @@ import { HeartIcon, MagnifyingGlassIcon, ShoppingCartIcon, UserIcon } from "@her
 const Header = () => {
 
     return (
-        <div className='flex justify-between py-6 items-center'>
-            <div className="flex gap-2">
-                <Image
-                    className="h-8 w-8"
-                    priority
-                    src={logo}
-                    alt="pondora"
-                />
-                <Typography variant="h1" className='text-2xl font-bold'>Furnio</Typography>
-            </div>
+        <div className='flex justify-between py-6 items-center px-8'>
+            <a href="#">
+                <div className="flex gap-2">
+                    <Image
+                        className="h-8 w-8"
+                        priority
+                        src={logo}
+                        alt="pondora"
+                        width={8}
+                        height={8}
+                    />
+                    <Typography variant="h1" className='text-2xl font-bold'>Furnio</Typography>
+                </div>
+            </a>
             <div className="flex justify-between gap-8">
                 <MenuItem url="#" label="Home" />
                 <MenuItem url="#" label="Shop" />
@@ -27,10 +31,10 @@ const Header = () => {
                 <MenuItem url="#" label="Contact" />
             </div>
             <div className="flex justify-between gap-8">
-                <IconButton url="#" icon={<UserIcon className="h-5 stroke-2"/>} />
-                <IconButton url="#" icon={<MagnifyingGlassIcon className="h-5 stroke-2"/>} />
-                <IconButton url="#" icon={<HeartIcon className="h-5 stroke-2"/>} />
-                <IconButton url="#" icon={<ShoppingCartIcon className="h-5 stroke-2"/>} />
+                <IconButton url="#" icon={<UserIcon className="h-5 stroke-2 hover:text-brown-500"/>} />
+                <IconButton url="#" icon={<MagnifyingGlassIcon className="h-5 stroke-2 hover:text-brown-500"/>} />
+                <IconButton url="#" icon={<HeartIcon className="h-5 stroke-2 hover:text-brown-500"/>} />
+                <IconButton url="#" icon={<ShoppingCartIcon className="h-5 stroke-2 hover:text-brown-500"/>} />
             </div>
         </div>
     )
